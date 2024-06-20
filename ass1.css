@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Bungee Spice", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 100px;
+  text-shadow: 10px 10px 10px #c8eeeb, 12px 12px 12px #e4dbd4, 0px 0px 18px #dedcd5;
+
+}
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 30px;
+    border: 3px solid rgb(231, 207, 207);
+    border-radius: 5px;
+    color: beige;
+    box-shadow: 20px 20px 20px  rgba(57, 2, 35, 0.5) ;
+    
+}
+
+.main img{
+width: 450px;
+padding: 5px;
+margin: 1px;
+
+
+}
+
+
+.main h2 {
+  margin: 1px;
+ border:none;
+ color: rgb(245, 174, 68);
+ 
+}
+
+.main p{
+    padding: 50px;
+    width: 400px;
+    height: 100px;
+    border:1px solid #ccc;
+    overflow: auto;
+   
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    width:160%;
+    padding:20px;
+}
+
+.btn button {
+    background-color: #FFCC70;
+    padding: 15px;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.btn button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn button a:hover{
+    color:aqua;
+
+}
+
+
+
+
+
+.main img:hover{
+cursor: pointer; 
+padding:40px;
+width: 500px;
+
+}
+
+
